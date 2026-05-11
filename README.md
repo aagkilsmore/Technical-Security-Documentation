@@ -31,5 +31,5 @@ This project follows a GRC (Governance, Risk, and Compliance) hierarchy:
 *This repository contains sanitized, high-level templates designed for portfolio demonstration. It does not contain sensitive operational data or proprietary company information. All assets and identifiers are generic.*
 
 ---
-**Maintained by:** [Your Name/GitHub Handle]  
+**Maintained by:** Akili Gallimore 
 **Objective:** Demonstrating excellence in Industrial Cybersecurity & GRC.

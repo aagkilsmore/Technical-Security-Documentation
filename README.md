@@ -1,35 +1,38 @@
-# Technical-Security-Documentation
-A structured Information Security Management System (ISMS) repository aligned with ISO/IEC 27001:2022. This project showcases the governance, risk management, and compliance (GRC) required to secure critical infrastructure in the Oil &amp; Gas sector.
-# Industrial ISMS Framework (ISO/IEC 27001:2022)
+# 🛡️ Industrial Cybersecurity & GRC Framework
+### ISO/IEC 27001:2022 | NIST CSF | Oil & Gas Technical Documentation
 
-## 🛡️ Project Overview
-This repository showcases a professional-grade **Information Security Management System (ISMS)** specifically tailored for the **Oil & Gas industry**. It bridges the gap between corporate IT governance and **Operational Technology (OT)** safety requirements.
+## 📖 Overview
+This repository showcases a specialized **Information Security Management System (ISMS)** framework designed for the unique rigors of the energy sector. In an environment where IT (Information Technology) and OT (Operational Technology) converge, security documentation must prioritize both data integrity and physical process safety.
 
-The framework is built to satisfy the documentation requirements of **ISO/IEC 27001:2022** while incorporating industrial standards such as **IEC 62443**.
+This project demonstrates the ability to translate high-level international standards into actionable technical controls for critical infrastructure.
 
-## 🏗️ Repository Structure
-This project follows a GRC (Governance, Risk, and Compliance) hierarchy:
+---
 
-*   **/01_Governance**: High-level policies and the ISMS Scope.
-*   **/02_Risk_Management**: Frameworks for identifying and treating industrial cyber-risks.
-*   **/03_Policies_Annex_A**: Documented controls for Access Management, Physical Security, and Operations.
-*   **/04_Runbooks**: Technical Incident Response steps for IT/OT convergence.
-*   **/05_Templates**: Blank forms for internal audits and change management.
+## 📂 Featured Technical Documentation
+This repository is built around four core pillars of industrial security governance:
 
-## 🚀 Key Documentation Included
-1. **Access Control Policy:** A GRC-focused approach to managing identities in safety-critical environments.
-2. **Information Security Policy:** The core mandate for protecting energy infrastructure.
-3. **Incident Response Runbook:** A "Safety-First" guide to containing digital threats in a physical plant.
-4. **Control Documentation Policy:** Rules for maintaining an audit-ready "paper trail."
+### 1. [Information Security Policy](./Information_Security_Policy.md)
+**The Governance Foundation.** Defines the overarching security mandate for the organization, aligning corporate objectives with ISO 27001 requirements and industrial safety protocols.
 
-## 🛠️ Tech Stack & Methodology
-*   **Version Control:** Git (provides a transparent, immutable audit trail for policy changes).
-*   **Documentation:** Markdown (standardized, searchable, and diff-friendly).
-*   **Review Process:** Pull Requests are used to simulate "Management Approval" workflows.
+### 2. [Access Control GRC Policy](./Access_Control_Policy.md)
+**Identity & Asset Integrity.** A risk-based framework for managing logical and physical access. It focuses on the "Principle of Least Privilege" across corporate networks and SCADA/DCS environments.
+
+### 3. [Incident Response Runbook](./Incident_Response_Runbook.md)
+**Operational Resiliency.** A technical "Safety-First" guide for containing digital threats. It provides a structured path for mobilization, containment, and recovery without compromising plant safety.
+
+### 4. [Control Documentation Standard](./Control_Documentation.md)
+**The Audit Trail.** Defines the requirements for documenting the implementation and monitoring of security controls. This ensures a "living" ISMS that is always audit-ready.
+
+---
+
+## 🛠️ Methodology
+*   **Version Control as Evidence:** Every change is tracked via Git, providing an immutable audit trail of policy evolution—a core requirement of ISO 27001 Clause 7.5.
+*   **Safety-Centric GRC:** Documentation is written with a "Safety First" mindset, ensuring cybersecurity controls never override critical Emergency Shutdown (ESD) protocols.
+*   **Markdown Standard:** All files utilize Markdown for maximum searchability, portability, and "diff-based" version tracking.
 
 ## ⚖️ Disclaimer
-*This repository contains sanitized, high-level templates designed for portfolio demonstration. It does not contain sensitive operational data or proprietary company information. All assets and identifiers are generic.*
+*This repository contains sanitized, high-level templates designed for professional demonstration. It is not specific to any entity and contains no proprietary operational data or sensitive infrastructure details.*
 
 ---
 **Maintained by:** Akili Gallimore 
-**Objective:** Demonstrating excellence in Industrial Cybersecurity & GRC.
+**Focus:** Industrial GRC & Technical Security Writing
